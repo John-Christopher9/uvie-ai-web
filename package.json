@@ -1,0 +1,24 @@
+{
+  "name": "uvie-ai-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "three": "^0.153.0",
+    "@react-three/fiber": "^8.13.4",
+    "@react-three/drei": "^9.56.7",
+    "framer-motion": "^10.12.16",
+    "lucide-react": "^0.256.0"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9",
+    "@vitejs/plugin-react": "^4.0.0",
+    "typescript": "^5.2.2"
+  }
+}
