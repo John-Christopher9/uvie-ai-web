@@ -3,7 +3,7 @@ import { OrbitControls, useGLTF } from "@react-three/drei";
 import React, { Suspense } from "react";
 
 function UVieAvatar3D({ emotion, talking }: { emotion: string, talking: boolean }) {
-  const { scene } = useGLTF("https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/RobotExpressive/glTF-Binary/RobotExpressive.glb");
+  const { scene } = useGLTF("https://cdn.jsdelivr.net/gh/KhronosGroup/glTF-Sample-Models@master/2.0/RobotExpressive/glTF-Binary/RobotExpressive.glb");
 
   return (
     <Canvas style={{ height: 300 }}>
